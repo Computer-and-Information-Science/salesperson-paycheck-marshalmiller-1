@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "testcase1.txt",
+      "output": "1811.72",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "testcase2.txt",
+      "output": "1973.08",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "testcase3.txt",
+      "output": "1388.03",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
